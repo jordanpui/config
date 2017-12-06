@@ -115,15 +115,26 @@ fi
 
 export BENCHMARK_PATH=/home/cwpui/benchmark
 
+export http_proxy="http://proxy.cse.cuhk.edu.hk:8000"
+export https_proxy="https://proxy.cse.cuhk.edu.hk:8000"
+
 #Java Path
 export JAVA_HOME=/usr/local/lib/jdk1.8.0_77
 export PATH=$JAVA_HOME/bin:$PATH 
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
+#vivado
 export VIVADO_PATH=/opt/Xilinx/Vivado/2015.4/bin
-
-export PATH=/usr/local/MATLAB/R2015b/bin:$PATH
 export PATH=/opt/Xilinx/Vivado/2015.4/bin/:$PATH
+
+#matlab
+export PATH=/usr/local/MATLAB/R2015b/bin:$PATH
+
+#cadence innovus
+export CDS_ROOT=/opt/cadence
+export CDS_LIC_FILE=/opt/cadence/cds.lic
+export LM_LICENSE_FILE=/opt/cadence/cds.lic
+export PATH=$PATH:/opt/cadence/INNOVUS161/bin
 
 set autolist = ambiguous
 set complete = enhance

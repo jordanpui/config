@@ -21,22 +21,7 @@ set csto=1
 set ignorecase
 
 set background=dark
-" reasonable color scheme
 :colo default
-" :colo peachpuff
-" :colo delek
-" :colo zellner
-" :colo murphy
-
-" not so good...
-" :colo desert
-" :colo torte
-" :colo blue
-" :colo ron
-" :colo slate
-" :colo pablo
-" :colo elflord
-
 
 " Return to last edit position when opening files (You want this!)
 autocmd BufReadPost *
@@ -51,5 +36,4 @@ set pastetoggle=<F9>   " no auto indent whey copy
 hi clear
 
 set guifont=Monospace\ 9
-set lines=55 columns=170
 set backspace=2
