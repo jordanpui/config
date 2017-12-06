@@ -1,0 +1,27 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 10,
+    "editor.detectIndentation": false,
+    "update.channel": "none",
+    "editor.cursorStyle": "line",
+    "workbench.iconTheme": "vscode-icons",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/*.o": true,
+        "**/*.d": true
+    },
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Solarized Dark",
+    "editor.minimap.enabled": false,
+    "editor.formatOnType": true,
+    // "editor.formatOnPaste": true,
+    // "editor.formatOnSave": true,
+    "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+    "C_Cpp.clang_format_fallbackStyle": "Webkit",
+    "C_Cpp.clang_format_sortIncludes": true,
+    "files.autoSave": "afterDelay",
+    // "C_Cpp.clang_format_formatOnSave": true
+}

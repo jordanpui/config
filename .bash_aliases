@@ -11,9 +11,14 @@ alias sudo="sudo -E"
 alias projgw108="ssh -X -p 3208 projgw"
 alias projgw109="ssh -X -p 3209 projgw"
 alias projgw110="ssh -X -p 3210 projgw"
+alias linux8="ssh -X linux8"
+alias linux10="ssh -X linux10"
+
+alias l="ls"
+alias la="ls -a"
+alias ll="ls -ail"
 
 alias rm='rm -r'
-alias ls='ls -ail'
 alias vim='gvim'
 
 alias m="cd ../src && make -j && cd ../bin"
