@@ -28,3 +28,6 @@ alias mb="cd ../src && make -Bj && cd ../bin"
 alias mc="cd ../src && make clean && cd ../bin"
 
 alias r="reset" 
+
+alias ibus_reboot="ibus-daemon –drx"
+alias matlab="matlab&"
