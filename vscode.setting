@@ -17,11 +17,13 @@
     "workbench.colorTheme": "Solarized Dark",
     "editor.minimap.enabled": false,
     "editor.formatOnType": true,
-    // "editor.formatOnPaste": true,
-    // "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
     "C_Cpp.clang_format_path": "/usr/bin/clang-format",
     "C_Cpp.clang_format_fallbackStyle": "Webkit",
     "C_Cpp.clang_format_sortIncludes": true,
     "files.autoSave": "afterDelay",
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.startupEditor": "newUntitledFile"
     // "C_Cpp.clang_format_formatOnSave": true
 }
