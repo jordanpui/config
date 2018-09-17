@@ -118,8 +118,8 @@ fi
 
 export BENCHMARK_PATH=/home/cwpui/workspaces/benchmark
 
-#export http_proxy="http://proxy.cse.cuhk.edu.hk:8000"
-#export https_proxy="https://proxy.cse.cuhk.edu.hk:8000"
+export http_proxy="http://proxy.cse.cuhk.edu.hk:8000"
+export https_proxy="https://proxy.cse.cuhk.edu.hk:8000"
 
 #Java Path
 export JAVA_HOME=/usr/local/lib/jdk1.8.0_77
@@ -132,7 +132,7 @@ export PATH=/opt/Xilinx/Vivado/2015.4/bin/:$PATH
 export XILINXD_LICENSE_FILE=/opt/Xilinx/Xilinx.lic
 
 #matlab
-export PATH=/opt/MATLAB/R2016a/bin:$PATH
+export PATH=/opt/MATLAB/R2018a/bin:$PATH
 
 #cadence innovus
 export CDS_ROOT=/opt/cadence
