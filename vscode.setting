@@ -1,8 +1,7 @@
-// Place your settings in this file to overwrite the default settings
 {
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "editor.fontSize": 10,
+    "editor.fontSize": 12,
     "editor.detectIndentation": false,
     "update.channel": "none",
     "editor.cursorStyle": "line",
@@ -16,16 +15,17 @@
         "**/*.d": true
     },
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "Solarized Dark",
+    "workbench.colorTheme": "Default Light+",
     "editor.minimap.enabled": false,
     "editor.formatOnType": true,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+    // "C_Cpp.clang_format_path": "/usr/bin/clang-format",
     "C_Cpp.clang_format_fallbackStyle": "Webkit",
     "C_Cpp.clang_format_sortIncludes": false,
     "files.autoSave": "afterDelay",
     "vsicons.dontShowNewVersionMessage": true,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "latex-workshop.view.pdf.viewer": "tab"
     // "C_Cpp.clang_format_formatOnSave": true
 }

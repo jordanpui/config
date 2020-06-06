@@ -37,4 +37,5 @@ hi clear
 
 set guifont=Monospace\ 9
 set backspace=2
-set mouse=a
+" set mouse=a
+set tags=./tags,tags;
