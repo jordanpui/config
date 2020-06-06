@@ -119,7 +119,7 @@ fi
 export BENCHMARK_PATH=/home/cwpui/workspaces/benchmark
 
 export http_proxy="http://proxy.cse.cuhk.edu.hk:8000"
-export https_proxy="https://proxy.cse.cuhk.edu.hk:8000"
+export HTTPS_PROXY="https://proxy.cse.cuhk.edu.hk:8000"
 
 #Java Path
 export JAVA_HOME=/usr/local/lib/jdk1.8.0_77
@@ -136,9 +136,16 @@ export PATH=/opt/MATLAB/R2018a/bin:$PATH
 
 #cadence innovus
 export CDS_ROOT=/opt/cadence
-export CDS_LIC_FILE=/opt/cadence/cds.lic
+export CDS_LIC_FILE=$CDS_ROOT/cds.lic
 #export LM_LICENSE_FILE=/opt/cadence/cds.lic
-export PATH=$PATH:/opt/cadence/INNOVUS161/bin
+export PATH=$PATH:$CDS_ROOT/INNOVUS181/bin
 
 #GPROF2DOT
 #export GPROF2DOT="/home/cwpui/misc/scripts/gprof2dot.py"
+
+export GUROBI_HOME="/opt/gurobi810/linux64"
+export PATH="${PATH}:${GUROBI_HOME}/bin"
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:${GUROBI_HOME}/lib"
+export GRB_LICENSE_FILE=/home/cwpui/Documents/gurobi.lic
+
+export TITAN_BASE_DIR=/home/cwpui/workspaces/titan_release_1.2.0
