@@ -1,0 +1,28 @@
+alias df="df -h"
+alias du="du -hs *"
+alias mac='ifconfig | grep HWaddr'
+alias wget='wget -c'
+alias apt-search='apt-cache search'
+alias apt-show='apt-cache show'
+alias add-apt-repository="-E add-apt-repository"
+alias sudo="sudo -E"
+alias l="ls"
+alias la="ls -a"
+alias ll="ls -ahl"
+alias cp="cp -r"
+alias rm='rm -ri'
+alias m="make -j"
+alias md="make -j mode=debug"
+alias mb="make -Bj"
+alias mr="make -j mode=release"
+alias mdb="make -Bj mode=debug"
+alias mrb="make -Bj mode=release" 
+alias mc="make clean"
+alias r="reset"
+
+set autolist = ambiguous
+set complete = enhance
+
+#alias setprompt 'set prompt="['whoami'@'hostname' $cmd]$ "'
+#setprompt
+#alias cd 'chdir \!* && setprompt'
