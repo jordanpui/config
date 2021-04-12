@@ -14,6 +14,8 @@ alias grep='grep -R -n --color=auto'
 set autolist = ambiguous
 set complete = enhance
 
+export PS1='[\[\e[01;32m\]\u\[\e[01;33m\]@\h\[\e[01;35m\]:$PWD]$\[\e[00m\] '
+
 #alias setprompt 'set prompt="['whoami'@'hostname' $cmd]$ "'
 #setprompt
 #alias cd 'chdir \!* && setprompt'
